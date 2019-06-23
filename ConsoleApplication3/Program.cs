@@ -19,8 +19,8 @@ namespace ConsoleApplication3
             f.imposto = double.Parse(Console.ReadLine());
             Console.Write("\n"+f);
             Console.Write("\nPercentual de aumento: ");
-            double porcent = double.Parse(Console.ReadLine());
-            f.AumentarSalario(porcent);
+            double porcentagem = double.Parse(Console.ReadLine());
+            f.AumentarSalario(porcentagem);
             Console.Write("\n"+f);
             Console.ReadLine();
         }
