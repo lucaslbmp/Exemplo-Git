@@ -13,7 +13,7 @@ namespace ConsoleApplication3
             Funcionario f = new Funcionario();
             Console.Write("Nome: ");
             f.nome = Console.ReadLine();
-            Console.Write("Salario: ");
+            Console.Write("Salario do funcionario: ");
             f.salario = double.Parse(Console.ReadLine());
             Console.Write("Imposto: ");
             f.imposto = double.Parse(Console.ReadLine());
