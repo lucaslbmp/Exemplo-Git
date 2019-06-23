@@ -15,7 +15,7 @@ namespace ConsoleApplication3
             f.nome = Console.ReadLine();
             Console.Write("Salario do funcionario: ");
             f.salario = double.Parse(Console.ReadLine());
-            Console.Write("Imposto: ");
+            Console.Write("Imposto sobre o salario: ");
             f.imposto = double.Parse(Console.ReadLine());
             Console.Write("\n"+f);
             Console.Write("\nPercentual de aumento: ");
