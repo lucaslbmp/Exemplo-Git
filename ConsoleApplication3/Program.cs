@@ -20,7 +20,7 @@ namespace ConsoleApplication3
             Console.Write("\n"+f);
             Console.Write("\nPercentual de aumento: ");
             double porcentagem = double.Parse(Console.ReadLine());
-            f.AumentarSalario(porcentagem);
+            //f.AumentarSalario(porcentagem);
             Console.Write("\n"+f);
             Console.ReadLine();
         }
